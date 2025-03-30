@@ -1,0 +1,70 @@
+/* Use a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+
+background-color:white;
+}
+
+body {
+    font-family: initial; 
+    line-height: 2;
+    background-color: white;
+}
+
+header {
+    background: #e9eaeb;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border: 2px solid #35424a;
+    border-radius: 20px; 
+    font-size: 18px;
+}
+button {
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border: 10px red;
+    border-radius: 5px;
+    position: relative;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.16);
+    background-color: blue;
+    transition: 0.3s ease all;
+    cursor: pointer;
+}
+.styled-image {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin:  0 auto;
+    border: 5px solid #a9b3b9;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.1)
+
+
+    
+}
+
+footer {
+    text-align: center;
+    padding: 18px 0;
+    background-color: beige;
+    color: black;
+    position: relative;
+}
